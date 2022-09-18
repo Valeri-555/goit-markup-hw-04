@@ -58,7 +58,7 @@ body {
 }
 
 .header-nav {
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 
@@ -139,12 +139,17 @@ body {
     background-color: var(--background-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .wrapper-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .hero-title {
@@ -267,7 +272,7 @@ body {
     padding: 94px 0;
 }
 
-.container-team {}
+
 
 .team-section {
     display: flex;
@@ -296,6 +301,28 @@ body {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+
+
+.our-team-social {
+display: flex;
+gap: 10px;
+}
+
+.social-link{ 
+    background: #f5d0d0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+width: 44px;
+height: 44px;
+}
+
+.icon-link {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
 
 .team-list {
@@ -324,17 +351,19 @@ body {
     padding: 60px 0;
 }
 
-.container-footer {}
+.address-list:not(:first-child) {
+    margin-top: 9px;
+} 
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-    font-style: Bold;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--accent-color);
     text-decoration: none;
     display: inline-block;
+
 }
 
 .logo-second {
@@ -368,6 +397,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
 /* Портфоліо */
 
 .portfolio-list {
@@ -382,12 +412,12 @@ body {
 
 .item-button:not(:first-child) {
     margin-left: 8px
-}
+}       
 
 .buttons-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .projects-list {
@@ -396,7 +426,9 @@ body {
     gap: 30px;
 }
 
-.content-list {}
+.content-list {
+    
+}
 
 .button-text {
     font-family: inherit;
@@ -414,6 +446,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .project-text {
