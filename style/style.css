@@ -179,11 +179,14 @@ body {
     background-color: var(--accent-color);
     cursor: pointer;
     border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .hero-btn-text {
@@ -409,7 +412,7 @@ body {
 
 .border-logo:hover,
 .border-logo:focus {
-    border-color:var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .link-logo {
@@ -493,7 +496,7 @@ body {
 
 .join-in {
 
-margin-left: 70px;
+    margin-left: 70px;
 }
 
 .join {
@@ -520,12 +523,12 @@ margin-left: 70px;
 
 .item-svg {
     font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 /* color: var(--primary-text-color);
@@ -597,7 +600,7 @@ margin-bottom: 50px; */
     background: var(--accent-color);
     color: var(--primary-title-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .list-text {
@@ -607,7 +610,7 @@ border-radius: 4px;
 
 .list-text:hover,
 .list-text:focus {
-     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 img {
