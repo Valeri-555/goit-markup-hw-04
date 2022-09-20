@@ -546,6 +546,7 @@ margin-bottom: 50px; */
     background: #f5f4fa;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .item-button:not(:first-child) {
@@ -595,6 +596,8 @@ margin-bottom: 50px; */
 .button:focus {
     background: var(--accent-color);
     color: var(--primary-title-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .list-text {
