@@ -140,7 +140,8 @@ body {
     fill: var(--secondary-text-color);
 }
 
-.link:hover svg {
+.link:hover svg,
+.link:focus svg {
     fill: var(--accent-color);
 }
 
@@ -155,6 +156,8 @@ body {
         url(../img/hero/Img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .wrapper-hero {
@@ -417,8 +420,15 @@ body {
 
 .link-logo {
     display: inline-flex;
-    width: 106px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-logo:hover svg,
+.link-logo:focus svg {
+    fill: var(--accent-color);
 }
 
 .icon-logo:hover,
@@ -447,6 +457,7 @@ body {
 
 .footer-list {
     display: flex;
+    align-items: baseline;
 }
 
 .address-list:not(:first-child) {
