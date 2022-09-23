@@ -382,6 +382,10 @@ body {
 
 /* Regular customers */
 
+.our-clients {
+padding: 94px 0;
+}
+
 .item-clients {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -389,13 +393,11 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
 .logo-list {
     display: inline-flex;
-    margin-bottom: 94px;
 }
 
 .border-logo {
